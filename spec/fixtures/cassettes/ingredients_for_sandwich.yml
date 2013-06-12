@@ -1,0 +1,207 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pixelpt-sandwich-api.herokuapp.com/sandwiches.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.7
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 12 Jun 2013 15:36:32 GMT
+      Etag:
+      - ! '"5927b422678362de892918df8597dcf5"'
+      Server:
+      - WEBrick/1.3.1 (Ruby/1.9.3/2013-02-22)
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 64d93bf8fe0e1b6e628bbe56f6156d29
+      X-Runtime:
+      - '2.132010'
+      Content-Length:
+      - '21446'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"sandwiches":[{"id":110,"title":"El mio","ingredients_count":2,"price":123.0,"ingredients":[{"id":250,"name":"Queso","quantity":1,"sandwich_name":"El
+        mio"},{"id":251,"name":"jamon","quantity":2,"sandwich_name":"El mio"}]},{"id":111,"title":"El
+        de al lao","ingredients_count":3,"price":123.0,"ingredients":[{"id":252,"name":"jasmon","quantity":2,"sandwich_name":"El
+        de al lao"},{"id":253,"name":"serrano","quantity":3,"sandwich_name":"El de
+        al lao"},{"id":254,"name":"durisimo","quantity":4,"sandwich_name":"El de al
+        lao"}]},{"id":112,"title":"el mio","ingredients_count":2,"price":123.0,"ingredients":[{"id":255,"name":"Jamon","quantity":3,"sandwich_name":"el
+        mio"},{"id":256,"name":"Queso","quantity":4,"sandwich_name":"el mio"}]},{"id":113,"title":"el
+        mio tuyo","ingredients_count":2,"price":123.0,"ingredients":[{"id":257,"name":"Jamon","quantity":3,"sandwich_name":"el
+        mio tuyo"},{"id":258,"name":"Queso","quantity":4,"sandwich_name":"el mio tuyo"}]},{"id":114,"title":"Sexo
+        Porcino","ingredients_count":3,"price":123.0,"ingredients":[{"id":259,"name":"Bacon","quantity":100,"sandwich_name":"Sexo
+        Porcino"},{"id":260,"name":"Chuleta","quantity":100,"sandwich_name":"Sexo
+        Porcino"},{"id":261,"name":"Tocino","quantity":100,"sandwich_name":"Sexo Porcino"}]},{"id":116,"title":"El
+        Bahia de la muerte negra","ingredients_count":4,"price":2000.0,"ingredients":[{"id":265,"name":"dubi","quantity":4,"sandwich_name":"El
+        Bahia de la muerte negra"},{"id":266,"name":"conde del rio","quantity":20,"sandwich_name":"El
+        Bahia de la muerte negra"},{"id":267,"name":"mezclas con 151","quantity":40,"sandwich_name":"El
+        Bahia de la muerte negra"},{"id":268,"name":"barcelo","quantity":10,"sandwich_name":"El
+        Bahia de la muerte negra"}]},{"id":58,"title":"Josh likes men","ingredients_count":1,"price":12.0,"ingredients":[{"id":125,"name":"prueba","quantity":1,"sandwich_name":"Josh
+        likes men"}]},{"id":130,"title":"bitch please","ingredients_count":1,"price":55.0,"ingredients":[{"id":283,"name":"fghdhg","quantity":0,"sandwich_name":"bitch
+        please"}]},{"id":131,"title":"testing","ingredients_count":2,"price":500.0,"ingredients":[{"id":284,"name":"testing","quantity":1,"sandwich_name":"testing"},{"id":285,"name":"testing","quantity":2,"sandwich_name":"testing"}]},{"id":92,"title":"Burger
+        Online","ingredients_count":3,"price":10.0,"ingredients":[{"id":212,"name":"Queso","quantity":1,"sandwich_name":"Burger
+        Online"},{"id":213,"name":"Jamon","quantity":2,"sandwich_name":"Burger Online"},{"id":214,"name":"Pollo","quantity":5,"sandwich_name":"Burger
+        Online"}]},{"id":95,"title":"SU the water man","ingredients_count":1,"price":150.0,"ingredients":[{"id":218,"name":"water
+        drops","quantity":2,"sandwich_name":"SU the water man"}]},{"id":96,"title":"Marcos
+        Special","ingredients_count":2,"price":150.0,"ingredients":[{"id":219,"name":"Bacon","quantity":9001,"sandwich_name":"Marcos
+        Special"},{"id":220,"name":"Lettuce","quantity":1,"sandwich_name":"Marcos
+        Special"}]},{"id":102,"title":"SA Sandwich","ingredients_count":2,"price":123.0,"ingredients":[{"id":229,"name":"Cheese","quantity":2,"sandwich_name":"SA
+        Sandwich"},{"id":230,"name":"Ham","quantity":2,"sandwich_name":"SA Sandwich"}]},{"id":103,"title":"SP
+        Sandwich","ingredients_count":2,"price":124.0,"ingredients":[{"id":231,"name":"Meat","quantity":1,"sandwich_name":"SP
+        Sandwich"},{"id":232,"name":"egg","quantity":2,"sandwich_name":"SP Sandwich"}]},{"id":100,"title":"Hello
+        this is sandwich","ingredients_count":1,"price":6565.0,"ingredients":[{"id":226,"name":"2","quantity":123,"sandwich_name":"Hello
+        this is sandwich"}]},{"id":132,"title":"Hola","ingredients_count":2,"price":3222.0,"ingredients":[{"id":286,"name":"aloo","quantity":1,"sandwich_name":"Hola"},{"id":287,"name":"asdsa","quantity":3,"sandwich_name":"Hola"}]},{"id":105,"title":"god","ingredients_count":1,"price":150.0,"ingredients":[{"id":238,"name":"sdsds","quantity":550,"sandwich_name":"god"}]},{"id":88,"title":"Some
+        new text","ingredients_count":1,"price":222.0,"ingredients":[{"id":204,"name":"dddd","quantity":323,"sandwich_name":"Some
+        new text"}]},{"id":106,"title":"pepeMas","ingredients_count":2,"price":300.0,"ingredients":[{"id":239,"name":"Pepino","quantity":1,"sandwich_name":"pepeMas"},{"id":240,"name":"Queso","quantity":1,"sandwich_name":"pepeMas"}]},{"id":107,"title":"Le
+        drsdsdeam","ingredients_count":5,"price":150.0,"ingredients":[{"id":241,"name":"Bacon","quantity":9001,"sandwich_name":"Le
+        drsdsdeam"},{"id":242,"name":"Swiss Cheese","quantity":8,"sandwich_name":"Le
+        drsdsdeam"},{"id":243,"name":"Salami Casalingo","quantity":10,"sandwich_name":"Le
+        drsdsdeam"},{"id":244,"name":"Busseto Sliced Salami","quantity":8,"sandwich_name":"Le
+        drsdsdeam"},{"id":245,"name":"Salami Sopressata","quantity":8,"sandwich_name":"Le
+        drsdsdeam"}]},{"id":108,"title":"Hello world","ingredients_count":2,"price":140.0,"ingredients":[{"id":246,"name":"Cheese","quantity":3,"sandwich_name":"Hello
+        world"},{"id":247,"name":"Bacon","quantity":1,"sandwich_name":"Hello world"}]},{"id":109,"title":"Gabriel
+        Palomo","ingredients_count":2,"price":1.0,"ingredients":[{"id":248,"name":"Palomo","quantity":1001,"sandwich_name":"Gabriel
+        Palomo"},{"id":249,"name":"Palomeria en Lata","quantity":9001,"sandwich_name":"Gabriel
+        Palomo"}]},{"id":133,"title":"MySandwich","ingredients_count":1,"price":150.0,"ingredients":[{"id":288,"name":"Salami","quantity":40,"sandwich_name":"MySandwich"}]},{"id":51,"title":"Chimi
+        Churry XXL (The ultimate warrior)","ingredients_count":7,"price":475.0,"ingredients":[{"id":110,"name":"Bacon","quantity":2,"sandwich_name":"Chimi
+        Churry XXL (The ultimate warrior)"},{"id":111,"name":"Swiss Cheese","quantity":7,"sandwich_name":"Chimi
+        Churry XXL (The ultimate warrior)"},{"id":112,"name":"Chicken breast","quantity":1,"sandwich_name":"Chimi
+        Churry XXL (The ultimate warrior)"},{"id":113,"name":"Churrasco","quantity":1,"sandwich_name":"Chimi
+        Churry XXL (The ultimate warrior)"},{"id":114,"name":"French Fries","quantity":10,"sandwich_name":"Chimi
+        Churry XXL (The ultimate warrior)"},{"id":115,"name":"Biscuits","quantity":5,"sandwich_name":"Chimi
+        Churry XXL (The ultimate warrior)"},{"id":116,"name":"Goku Buns","quantity":2,"sandwich_name":"Chimi
+        Churry XXL (The ultimate warrior)"}]},{"id":89,"title":"ddf","ingredients_count":1,"price":2323.0,"ingredients":[{"id":205,"name":"sdsds1111","quantity":2222,"sandwich_name":"ddf"}]},{"id":50,"title":"Red
+        Volcano","ingredients_count":5,"price":15.0,"ingredients":[{"id":105,"name":"American
+        Cheese","quantity":1,"sandwich_name":"Red Volcano"},{"id":106,"name":"Chicken
+        fingers","quantity":1,"sandwich_name":"Red Volcano"},{"id":107,"name":"Tomato","quantity":1,"sandwich_name":"Red
+        Volcano"},{"id":108,"name":"Fresh Chilli","quantity":1,"sandwich_name":"Red
+        Volcano"},{"id":109,"name":"Secret Hot Sauce","quantity":1,"sandwich_name":"Red
+        Volcano"}]},{"id":52,"title":"asdf","ingredients_count":1,"price":333.0,"ingredients":[{"id":117,"name":"Bacon","quantity":123,"sandwich_name":"asdf"}]},{"id":54,"title":"Hello
+        Burguer","ingredients_count":2,"price":111.0,"ingredients":[{"id":119,"name":"Suma","quantity":2,"sandwich_name":"Hello
+        Burguer"},{"id":120,"name":"Erpa","quantity":1,"sandwich_name":"Hello Burguer"}]},{"id":55,"title":"Mimi
+        Burguer","ingredients_count":1,"price":333.0,"ingredients":[{"id":121,"name":"Sugar","quantity":3,"sandwich_name":"Mimi
+        Burguer"}]},{"id":56,"title":"Hellita Burguer","ingredients_count":2,"price":123.0,"ingredients":[{"id":122,"name":"Queso
+        Amarllo","quantity":2,"sandwich_name":"Hellita Burguer"},{"id":123,"name":"Queso
+        Verde","quantity":1,"sandwich_name":"Hellita Burguer"}]},{"id":57,"title":"nombre","ingredients_count":1,"price":12.0,"ingredients":[{"id":124,"name":"prueba","quantity":1,"sandwich_name":"nombre"}]},{"id":59,"title":"New
+        San","ingredients_count":2,"price":1.0,"ingredients":[{"id":126,"name":"Ba","quantity":1,"sandwich_name":"New
+        San"},{"id":127,"name":"Algo","quantity":2,"sandwich_name":"New San"}]},{"id":60,"title":"DevDom","ingredients_count":3,"price":123.0,"ingredients":[{"id":128,"name":"Java","quantity":0,"sandwich_name":"DevDom"},{"id":129,"name":"C","quantity":1,"sandwich_name":"DevDom"},{"id":130,"name":"Python","quantity":2,"sandwich_name":"DevDom"}]},{"id":61,"title":"DevDom2","ingredients_count":2,"price":3123.0,"ingredients":[{"id":131,"name":"Ruby","quantity":9,"sandwich_name":"DevDom2"},{"id":132,"name":"Rails","quantity":9,"sandwich_name":"DevDom2"}]},{"id":62,"title":"Rubydo","ingredients_count":1,"price":123.0,"ingredients":[{"id":133,"name":"Rb","quantity":1,"sandwich_name":"Rubydo"}]},{"id":63,"title":"Python","ingredients_count":1,"price":1.0,"ingredients":[{"id":134,"name":"d","quantity":1,"sandwich_name":"Python"}]},{"id":64,"title":"Miguelon
+        Especial","ingredients_count":2,"price":150.0,"ingredients":[{"id":135,"name":"34dc  cccc","quantity":2,"sandwich_name":"Miguelon
+        Especial"},{"id":136,"name":"dddc","quantity":1,"sandwich_name":"Miguelon
+        Especial"}]},{"id":65,"title":"asdfasd","ingredients_count":1,"price":150.0,"ingredients":[{"id":137,"name":"asdfasdf","quantity":2,"sandwich_name":"asdfasd"}]},{"id":66,"title":"asdfasdf","ingredients_count":1,"price":150.0,"ingredients":[{"id":138,"name":"sdfasdf","quantity":2,"sandwich_name":"asdfasdf"}]},{"id":67,"title":"Reuben","ingredients_count":2,"price":150.0,"ingredients":[{"id":139,"name":"quarter
+        of turkey","quantity":1,"sandwich_name":"Reuben"},{"id":140,"name":"eggs","quantity":2,"sandwich_name":"Reuben"}]},{"id":68,"title":"Huevo
+        Burger","ingredients_count":6,"price":150.0,"ingredients":[{"id":141,"name":"egg","quantity":1,"sandwich_name":"Huevo
+        Burger"},{"id":142,"name":"slices of cheese","quantity":2,"sandwich_name":"Huevo
+        Burger"},{"id":143,"name":"slices of ham","quantity":2,"sandwich_name":"Huevo
+        Burger"},{"id":144,"name":"slices of tomato","quantity":2,"sandwich_name":"Huevo
+        Burger"},{"id":145,"name":"ketchup","quantity":1,"sandwich_name":"Huevo Burger"},{"id":146,"name":"mayonaisse","quantity":1,"sandwich_name":"Huevo
+        Burger"}]},{"id":69,"title":"Huevo Burger 2","ingredients_count":1,"price":150.0,"ingredients":[{"id":147,"name":"huevo","quantity":1,"sandwich_name":"Huevo
+        Burger 2"}]},{"id":70,"title":"El Chachi","ingredients_count":3,"price":150.0,"ingredients":[{"id":148,"name":"rodaja
+        de queso","quantity":1,"sandwich_name":"El Chachi"},{"id":149,"name":"mayonesa","quantity":1,"sandwich_name":"El
+        Chachi"},{"id":150,"name":"huevos","quantity":2,"sandwich_name":"El Chachi"}]},{"id":71,"title":"sandvitx
+        sant adrian","ingredients_count":2,"price":150.0,"ingredients":[{"id":151,"name":"Huevo","quantity":2,"sandwich_name":"sandvitx
+        sant adrian"},{"id":152,"name":"tomate","quantity":1,"sandwich_name":"sandvitx
+        sant adrian"}]},{"id":72,"title":"Le dream","ingredients_count":5,"price":150.0,"ingredients":[{"id":153,"name":"Bacon","quantity":9001,"sandwich_name":"Le
+        dream"},{"id":154,"name":"Swiss Cheese","quantity":8,"sandwich_name":"Le dream"},{"id":155,"name":"Salami
+        Casalingo","quantity":10,"sandwich_name":"Le dream"},{"id":156,"name":"Busseto
+        Sliced Salami","quantity":8,"sandwich_name":"Le dream"},{"id":157,"name":"Salami
+        Sopressata","quantity":8,"sandwich_name":"Le dream"}]},{"id":73,"title":"dfd","ingredients_count":1,"price":34.0,"ingredients":[{"id":158,"name":"dfd","quantity":33,"sandwich_name":"dfd"}]},{"id":74,"title":"Hello","ingredients_count":1,"price":43.0,"ingredients":[{"id":159,"name":"dfdf","quantity":232,"sandwich_name":"Hello"}]},{"id":75,"title":"aasaaaaaaa","ingredients_count":1,"price":22.0,"ingredients":[{"id":160,"name":"aaa","quantity":222,"sandwich_name":"aasaaaaaaa"}]},{"id":76,"title":"The
+        New Burger ","ingredients_count":1,"price":150.0,"ingredients":[{"id":161,"name":"Bacon","quantity":9001,"sandwich_name":"The
+        New Burger "}]},{"id":78,"title":"wewerw","ingredients_count":1,"price":23.0,"ingredients":[{"id":163,"name":"test","quantity":898,"sandwich_name":"wewerw"}]},{"id":79,"title":"Cubano","ingredients_count":3,"price":150.0,"ingredients":[{"id":164,"name":"Jamon","quantity":2,"sandwich_name":"Cubano"},{"id":165,"name":"Cerdo","quantity":2,"sandwich_name":"Cubano"},{"id":166,"name":"Queso","quantity":2,"sandwich_name":"Cubano"}]},{"id":80,"title":"dsd","ingredients_count":1,"price":22.0,"ingredients":[{"id":167,"name":"sdsd","quantity":2222,"sandwich_name":"dsd"}]},{"id":81,"title":"aaaaa","ingredients_count":1,"price":22.0,"ingredients":[{"id":168,"name":"sdsd","quantity":222,"sandwich_name":"aaaaa"}]},{"id":82,"title":"sdsd","ingredients_count":1,"price":2222.0,"ingredients":[{"id":169,"name":"sdsds","quantity":222222,"sandwich_name":"sdsd"}]},{"id":83,"title":"dfdq3","ingredients_count":1,"price":22.0,"ingredients":[{"id":170,"name":"sds","quantity":22,"sandwich_name":"dfdq3"}]},{"id":84,"title":"The
+        Terminators","ingredients_count":5,"price":54.0,"ingredients":[{"id":171,"name":"Swiss
+        Cheese","quantity":1,"sandwich_name":"The Terminators"},{"id":172,"name":"Gouda
+        Cheese","quantity":2,"sandwich_name":"The Terminators"},{"id":173,"name":"Flank
+        Steak","quantity":1,"sandwich_name":"The Terminators"},{"id":174,"name":"Lettuce","quantity":1,"sandwich_name":"The
+        Terminators"},{"id":175,"name":"Tomato","quantity":1,"sandwich_name":"The
+        Terminators"}]},{"id":85,"title":"The Terminatorss","ingredients_count":5,"price":54.0,"ingredients":[{"id":176,"name":"Swiss
+        Cheese","quantity":1,"sandwich_name":"The Terminatorss"},{"id":177,"name":"Gouda
+        Cheese","quantity":2,"sandwich_name":"The Terminatorss"},{"id":178,"name":"Flank
+        Steak","quantity":1,"sandwich_name":"The Terminatorss"},{"id":179,"name":"Lettuce","quantity":1,"sandwich_name":"The
+        Terminatorss"},{"id":180,"name":"Tomato","quantity":1,"sandwich_name":"The
+        Terminatorss"}]},{"id":49,"title":"Italian Stallionn","ingredients_count":10,"price":1.0,"ingredients":[{"id":181,"name":"Mozarella
+        Cheese","quantity":1,"sandwich_name":"Italian Stallionn"},{"id":182,"name":"Genoa
+        Salami","quantity":1,"sandwich_name":"Italian Stallionn"},{"id":183,"name":"Pepperoni","quantity":1,"sandwich_name":"Italian
+        Stallionn"},{"id":184,"name":"Tomato","quantity":1,"sandwich_name":"Italian
+        Stallionn"},{"id":185,"name":"Pesto","quantity":1,"sandwich_name":"Italian
+        Stallionn"},{"id":100,"name":"Mozarella Cheese","quantity":1,"sandwich_name":"Italian
+        Stallionn"},{"id":101,"name":"Genoa Salami","quantity":1,"sandwich_name":"Italian
+        Stallionn"},{"id":102,"name":"Pepperoni","quantity":1,"sandwich_name":"Italian
+        Stallionn"},{"id":103,"name":"Tomato","quantity":1,"sandwich_name":"Italian
+        Stallionn"},{"id":104,"name":"Pesto","quantity":1,"sandwich_name":"Italian
+        Stallionn"}]},{"id":48,"title":"The Terminator","ingredients_count":20,"price":44.0,"ingredients":[{"id":186,"name":"Swiss
+        Cheese","quantity":1,"sandwich_name":"The Terminator"},{"id":187,"name":"Gouda
+        Cheese","quantity":2,"sandwich_name":"The Terminator"},{"id":188,"name":"Flank
+        Steak","quantity":1,"sandwich_name":"The Terminator"},{"id":189,"name":"Lettuce","quantity":1,"sandwich_name":"The
+        Terminator"},{"id":95,"name":"Swiss Cheese","quantity":1,"sandwich_name":"The
+        Terminator"},{"id":96,"name":"Gouda Cheese","quantity":2,"sandwich_name":"The
+        Terminator"},{"id":97,"name":"Flank Steak","quantity":1,"sandwich_name":"The
+        Terminator"},{"id":98,"name":"Lettuce","quantity":1,"sandwich_name":"The Terminator"},{"id":99,"name":"Tomato","quantity":1,"sandwich_name":"The
+        Terminator"},{"id":190,"name":"Tomato","quantity":1,"sandwich_name":"The Terminator"},{"id":191,"name":"Swiss
+        Cheese","quantity":1,"sandwich_name":"The Terminator"},{"id":192,"name":"Gouda
+        Cheese","quantity":2,"sandwich_name":"The Terminator"},{"id":193,"name":"Flank
+        Steak","quantity":1,"sandwich_name":"The Terminator"},{"id":194,"name":"Lettuce","quantity":1,"sandwich_name":"The
+        Terminator"},{"id":195,"name":"Swiss Cheese","quantity":1,"sandwich_name":"The
+        Terminator"},{"id":196,"name":"Gouda Cheese","quantity":2,"sandwich_name":"The
+        Terminator"},{"id":197,"name":"Flank Steak","quantity":1,"sandwich_name":"The
+        Terminator"},{"id":198,"name":"Lettuce","quantity":1,"sandwich_name":"The
+        Terminator"},{"id":199,"name":"Tomato","quantity":1,"sandwich_name":"The Terminator"},{"id":200,"name":"Tomato","quantity":1,"sandwich_name":"The
+        Terminator"}]},{"id":77,"title":"sdssvb","ingredients_count":2,"price":32.0,"ingredients":[{"id":162,"name":"sdsd","quantity":2,"sandwich_name":"sdssvb"},{"id":201,"name":"sdsd","quantity":2,"sandwich_name":"sdssvb"}]},{"id":115,"title":"Sexo
+        Porcino2 duro","ingredients_count":3,"price":123.0,"ingredients":[{"id":262,"name":"Bacon","quantity":100,"sandwich_name":"Sexo
+        Porcino2 duro"},{"id":263,"name":"Chuleta","quantity":100,"sandwich_name":"Sexo
+        Porcino2 duro"},{"id":264,"name":"Tocino","quantity":100,"sandwich_name":"Sexo
+        Porcino2 duro"}]},{"id":87,"title":"Productos","ingredients_count":2,"price":332.0,"ingredients":[{"id":203,"name":"dsd","quantity":22,"sandwich_name":"Productos"},{"id":209,"name":"bbbb","quantity":32,"sandwich_name":"Productos"}]},{"id":90,"title":"sdsd
+        existe","ingredients_count":2,"price":343.0,"ingredients":[{"id":206,"name":"fsdd","quantity":21212,"sandwich_name":"sdsd
+        existe"},{"id":207,"name":"xxxx","quantity":1,"sandwich_name":"sdsd existe"}]},{"id":86,"title":"Nuevo","ingredients_count":2,"price":12121.0,"ingredients":[{"id":202,"name":"Quesod","quantity":1511,"sandwich_name":"Nuevo"},{"id":208,"name":"xxxxxxx","quantity":444,"sandwich_name":"Nuevo"}]},{"id":91,"title":"forest
+        burger","ingredients_count":2,"price":155.0,"ingredients":[{"id":210,"name":"sdsd","quantity":232,"sandwich_name":"forest
+        burger"},{"id":211,"name":"dsdsd","quantity":223,"sandwich_name":"forest burger"}]},{"id":93,"title":"raikenkai","ingredients_count":1,"price":232323.0,"ingredients":[{"id":215,"name":"sdsdsd23","quantity":23,"sandwich_name":"raikenkai"}]},{"id":94,"title":"sdsds
+        Nike","ingredients_count":2,"price":32.0,"ingredients":[{"id":216,"name":"sdsdsd","quantity":222,"sandwich_name":"sdsds
+        Nike"},{"id":217,"name":"xdffg","quantity":222,"sandwich_name":"sdsds Nike"}]},{"id":98,"title":"Boston
+        burger xxl","ingredients_count":2,"price":150.0,"ingredients":[{"id":223,"name":"sdf","quantity":34,"sandwich_name":"Boston
+        burger xxl"},{"id":224,"name":"234","quantity":34,"sandwich_name":"Boston
+        burger xxl"}]},{"id":101,"title":"test","ingredients_count":2,"price":150.0,"ingredients":[{"id":227,"name":"asdfasdf","quantity":1,"sandwich_name":"test"},{"id":228,"name":"asdfasdf","quantity":3,"sandwich_name":"test"}]},{"id":99,"title":"pat
+        e Palo","ingredients_count":1,"price":50.0,"ingredients":[{"id":225,"name":"dassdsa","quantity":5,"sandwich_name":"pat
+        e Palo"}]},{"id":104,"title":"Ola k ase, comiendo o k ase","ingredients_count":3,"price":123.0,"ingredients":[{"id":233,"name":"queso","quantity":1,"sandwich_name":"Ola
+        k ase, comiendo o k ase"},{"id":234,"name":"crossfit","quantity":2,"sandwich_name":"Ola
+        k ase, comiendo o k ase"},{"id":235,"name":"breads","quantity":2,"sandwich_name":"Ola
+        k ase, comiendo o k ase"}]},{"id":97,"title":"Marrrdito Sandwich lol","ingredients_count":2,"price":125.0,"ingredients":[{"id":221,"name":"panes","quantity":20,"sandwich_name":"Marrrdito
+        Sandwich lol"},{"id":222,"name":"salamis","quantity":15,"sandwich_name":"Marrrdito
+        Sandwich lol"}]},{"id":53,"title":"dile a tu Mario Que me suelte","ingredients_count":1,"price":333.0,"ingredients":[{"id":118,"name":"Bacona","quantity":123,"sandwich_name":"dile
+        a tu Mario Que me suelte"}]},{"id":117,"title":"Le dream2","ingredients_count":2,"price":150.0,"ingredients":[{"id":269,"name":"Bacon","quantity":9100,"sandwich_name":"Le
+        dream2"},{"id":270,"name":"Cheese","quantity":7,"sandwich_name":"Le dream2"}]},{"id":118,"title":"Le
+        dream3","ingredients_count":1,"price":50.0,"ingredients":[{"id":271,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream3"}]},{"id":119,"title":"Le dream4","ingredients_count":1,"price":50.0,"ingredients":[{"id":272,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream4"}]},{"id":120,"title":"Le dream5","ingredients_count":1,"price":50.0,"ingredients":[{"id":273,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream5"}]},{"id":121,"title":"Le dream6","ingredients_count":1,"price":50.0,"ingredients":[{"id":274,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream6"}]},{"id":122,"title":"Le dream7","ingredients_count":1,"price":50.0,"ingredients":[{"id":275,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream7"}]},{"id":123,"title":"Le dream8","ingredients_count":1,"price":50.0,"ingredients":[{"id":276,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream8"}]},{"id":124,"title":"Le dream9","ingredients_count":1,"price":50.0,"ingredients":[{"id":277,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream9"}]},{"id":125,"title":"Le dream10","ingredients_count":1,"price":50.0,"ingredients":[{"id":278,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream10"}]},{"id":126,"title":"Le dream11","ingredients_count":1,"price":150.0,"ingredients":[{"id":279,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream11"}]},{"id":127,"title":"Le dream12","ingredients_count":1,"price":150.0,"ingredients":[{"id":280,"name":"Chesses","quantity":1,"sandwich_name":"Le
+        dream12"}]},{"id":128,"title":"Le dream13","ingredients_count":1,"price":150.0,"ingredients":[{"id":281,"name":"Chesse","quantity":1,"sandwich_name":"Le
+        dream13"}]},{"id":129,"title":"Le Sandwich","ingredients_count":1,"price":300.0,"ingredients":[{"id":282,"name":"Blue
+        Cheese","quantity":3,"sandwich_name":"Le Sandwich"}]}]}'
+    http_version: 
+  recorded_at: Wed, 12 Jun 2013 15:36:39 GMT
+recorded_with: VCR 2.5.0
